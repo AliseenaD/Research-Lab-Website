@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.publications {
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 85%;
+    background-color: #c7cfd2;
+    font-family: 'Lato', sans-serif;
+    color:#203245;
+    padding: 10px 10px 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.publications h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.publications ul {
+    padding-bottom: 15px;
+}
+
+.publications a {
+    text-decoration: underline;
+    color:#203245;
+}
+
+.publications a:hover {
+    color: #43709d;
+}
+
+@media screen and (max-width: 600px) {
+    .publications {
+        width: 100%;
+        border-radius: 0;
+    }
+}

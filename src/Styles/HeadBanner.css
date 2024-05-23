@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.head {
+    width: 100%;
+    height: 350px;
+    background-image: url(/src/Photos/DALL·E\ 2024-01-28\ 16.52.32\ -\ Create\ a\ new\,\ photorealistic\ image\ of\ neurons\,\ maintaining\ the\ style\ of\ the\ previous\ image.\ The\ focus\ should\ be\ on\ a\ different\ arrangement\ of\ neurons\,.PNG);
+    background-size: cover;
+    opacity: 80%;
+    margin-top: -18px;
+}
+
+.title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #000000;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .head {
+        height: 250px
+    }
+}

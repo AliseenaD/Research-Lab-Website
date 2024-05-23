@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.diseasesContent {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.diseasesContent p {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.diseases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    font-size: 15px;
+}
+
+.diseaseItem {
+    width: 30%;
+    margin: 0px 10px 0px 10px;
+}
+
+.diseaseItem hr {
+    color: #b4c4d6;
+    border-top: 3px solid;
+}
+
+@media screen and (max-width: 700px) {
+    .diseases {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .diseaseItem {
+        margin: 0;
+    }
+}
