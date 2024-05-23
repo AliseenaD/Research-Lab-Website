@@ -5,7 +5,6 @@ import Research from './Pages/Research';
 import Publications from './Pages/Publications';
 import About from './Pages/About';
 import Team from './Pages/Team';
-import HomeBanner from './Components/HomeBanner';
 import HomeContent from './Pages/HomeContent';
 
 function App() {

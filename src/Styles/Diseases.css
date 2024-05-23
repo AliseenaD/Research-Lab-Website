@@ -42,4 +42,12 @@
     .diseaseItem {
         margin: 0;
     }
+
+    .disease-2 {
+        width: 100%;
+    }
+
+    .disease-2 hr {
+        width: 50%;
+    }
 }

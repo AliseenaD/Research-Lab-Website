@@ -8,7 +8,7 @@ function Diseases() {
         return (
             <>
                 {diseases.map((disease, index) => (
-                    <div className="diseaseItem" key={index}>
+                    <div className={`diseaseItem disease-${index}`} key={index}>
                         <p>{disease}</p>
                         <hr></hr>
                     </div>

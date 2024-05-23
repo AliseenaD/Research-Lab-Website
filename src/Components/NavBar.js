@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useTransition } from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import '../Styles/NavBar.css';
 
